@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald&display=swap');
+
+body {
+  background-image: radial-gradient(circle at 30% 20%, #FEF8F1, #EDE2D8);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+}
+
+main {
+  display: flex;
+  flex-flow: row, wrap;
+}
+
+.shadow {
+  width: 300px;
+  background-color: #F5F7F2;
+  margin: 15px;
+  border-radius: 20px;
+  background-image: radial-gradient(circle at 30% 30%, #BFDAD8, #98C0BF);
+
+  box-shadow:
+    1px 1px 2px 0px #00000060,
+    3px 3px 6px 0 #7E856Eb0,
+    5px 5px 12px 0 #7E856E70,
+    7px 7px 30px #7E856E30,
+    inset 1px 1px 2px 0px #ffffff70,
+    inset 5px 5px 10px 0 #C9EAEC80,
+    inset -1px -1px 1px 0 #1A414370,
+    inset -12px -12px 12px -8px #1A414310;
+
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: stretch;
+
+  text-shadow: 0 0 3px #ffffffa0, 0 0 8px #ffffff40;
+  overflow: hidden;
+}
+
+.heading {
+  padding: 20px 20px 15px;
+  background-color: #ffffff40;
+  color: #0070BB;
+  display: flex;
+  gap: 1rem;
+}
+
+
+.title-container {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.title {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.subtitle {
+  font-family: 'Oswald', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.avatar {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+}
+
+.content {
+  padding: 20px;
+  font-size: 1rem;
+  color: #1D131F;
+  line-height: 1.5;
+  font-weight: 400;
+}
